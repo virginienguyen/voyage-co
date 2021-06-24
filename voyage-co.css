@@ -2,12 +2,17 @@
 width:100%;
 height: 500px;
 }
-
+header{
+    justify-content: center;
+    text-align: center;
+}
 .grid{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20px;
-    grid-template-areas: "a b c d e f";
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 20px 100px;
+    grid-template-areas: "a b c d e f"
+                            "TITRE";
+                        
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 10px;
 color:white;
@@ -15,6 +20,7 @@ text-align: center;
 background-image: url(header.jpg.jpg);
 background-size: cover;
 height:300px
+
     
 }
 
@@ -48,7 +54,18 @@ margin-top: 20px;
 
                 }
 .f {
+    margin-left: 50px;
 
                     margin-top: 20px;
+                    text-align: left;
                 
                                 }
+
+.TITRE {
+
+font-size: 70px;
+    color: tomato;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 420px;
+}
