@@ -13,7 +13,8 @@ header{
     grid-template-areas: "a b c d e f"
                             "TITRE";
                         
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Assistant', sans-serif;
+
 font-size: 14px;
 color:white;
 text-align: center;
@@ -24,7 +25,7 @@ height:300px
 }
 body{
 margin: 0px;
-
+font-family: 'Fjalla One', sans-serif;
 }
 main {
     display: grid;
@@ -39,9 +40,11 @@ grid-template-columns: 22% 24% 24% 24%;
 p {
     padding-top: 100px; 
 text-align: justify;
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Assistant', sans-serif;
 font-size: 15px;
 line-height: 23px;
+color: black;
+
 }
 
 .intro {
@@ -50,39 +53,43 @@ line-height: 23px;
     padding-left: 30px; 
     padding-right: 30px;  
     padding-bottom: 30px;
-font-family: 'Times New Roman', Times, serif;
 color:black;
-line-height: 28px;
-font-family:Arial, Helvetica, sans-serif;
+line-height: 30px;
+font-family: 'Assistant', sans-serif;
+font-size: 20px;
+font-weight: bolder;
 text-align: left;
 background-color: blanchedalmond;
 height:290px;
-font-size: 18px;
 
 }
 
 .zanzibar {
     margin-top: 20px;
     padding-top: 90px;    
-    background-color: cornsilk;
     height: 120px;
     font-size: 30px;
+    color: white;
+    background-image: url(https://terres-sauvages.ch/wp-content/uploads/2020/05/zanzibar-vaches_plage.jpg);
 
 }
 .groenland {
     margin-top: 20px;
     padding-top: 90px;    
-    background-color: darkgoldenrod;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdr4wngx2DwGBg0Ur2Yf09l5xaWkDyqZ3Hw&usqp=CAU);
     height: 120px;
     font-size: 30px;
+    color: white;
 
 }
 .londres {
     margin-top: 20px;
 padding-top: 90px;    
-background-color:cornflowerblue;
 height: 120px;
 font-size: 30px;
+color: white;
+background-image: url(https://swello.com/fr/blog/wp-content/uploads/2019/10/spots-photo-instagram-a%CC%80-Londres.jpg);
+
 
 }
 
