@@ -22,7 +22,12 @@ height:300px
 }
 body{
 margin: 0px;
+margin-left: 50px;
+margin-right: 50px;
+
 font-family: 'Fjalla One', sans-serif;
+background-color:rgb(238, 237, 232);
+
 }
 main {
     display: grid;
@@ -31,6 +36,7 @@ grid-template-columns: 22% 24% 24% 24%;
     grid-template-areas: "intro zanzibar groenland londres ";
     text-align: center;
     flex-wrap: nowrap;
+
 
 
 }
@@ -47,7 +53,7 @@ color: black;
 .intro {
   
     padding-top: 30px; 
-    padding-left: 30px; 
+    padding-left: 20px; 
     padding-right: 30px;  
     padding-bottom: 30px;
 color:black;
@@ -56,8 +62,6 @@ font-family: 'Assistant', sans-serif;
 font-size: 20px;
 font-weight: bolder;
 text-align: left;
-background-color: blanchedalmond;
-height:290px;
 
 }
 
@@ -68,12 +72,15 @@ height:290px;
     font-size: 30px;
     color: white;
     background-image: url(https://terres-sauvages.ch/wp-content/uploads/2020/05/zanzibar-vaches_plage.jpg);
+    background-size: cover;
+
 
 }
 .groenland {
     margin-top: 20px;
     padding-top: 90px;    
 background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdr4wngx2DwGBg0Ur2Yf09l5xaWkDyqZ3Hw&usqp=CAU);
+background-size: cover;
     height: 120px;
     font-size: 30px;
     color: white;
@@ -86,6 +93,8 @@ height: 120px;
 font-size: 30px;
 color: white;
 background-image: url(https://swello.com/fr/blog/wp-content/uploads/2019/10/spots-photo-instagram-a%CC%80-Londres.jpg);
+background-size: cover;
+margin-right: 20px;
 
 
 }
